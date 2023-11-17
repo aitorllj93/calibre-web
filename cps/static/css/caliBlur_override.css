@@ -15,7 +15,13 @@ body.serieslist.grid-view div.container-fluid > div > div.col-sm-10::before {
 }
 
 .cover {
+  border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+.cover img {
+  border: none;
+  border-radius: 10px;
 }
 
 .cover .read {
